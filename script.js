@@ -196,15 +196,15 @@ const questions = [
       "Vad är ett webbpubliceringssystem, CMS (Content Management System)",
     answers: [
       {
-        text: "programvara som hjälper användare att skapa, hantera och ändra innehåll på en webbplats utan behov av specialiserad teknisk kunskap",
+        text: "Programvara som hjälper användare att skapa, hantera och ändra innehåll på en webbplats utan behov av specialiserad teknisk kunskap",
         correct: true,
       },
       {
-        text: "programvara som hjälper användare att koda, hantera och ändra innehåll på en webbplats med  HTML, CSS och JavaScript",
+        text: "Programvara som hjälper användare att koda, hantera och ändra innehåll på en webbplats med  HTML, CSS och JavaScript",
         correct: false,
       },
       {
-        text: "programvara som hjälper användare att hantera olika versioner av din webbplats",
+        text: "Programvara som hjälper användare att hantera olika versioner av din webbplats",
         correct: false,
       },
       {
