@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans&family=Roboto&display=swap");
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+body {
+  --hue: var(--hue-neutral);
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(var(--hue), 100%, 20%);
+}
+
+body.correct {
+  --hue: var(--hue-correct);
+}
+
+body.wrong {
+  --hue: var(--hue-wrong);
+}
+.container {
+  width: 700px;
+  max-width: 85%;
+  height: 60vh;
+  min-height: 580px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+@media (min-width: 600px) {
+  .btn-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  border: 3px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.start-btn,
+.next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+h1,
+#question-number,
+#score {
+  text-align: center;
+}
