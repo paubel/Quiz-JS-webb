@@ -232,7 +232,20 @@ const questions = [
       { text: "Webbhotellssystem", correct: false },
     ],
   },
-
+  {
+    question: "Vad är Figma?",
+    answers: [
+      {
+        text: "En tjänst där du gör layouten på en webbplats innan du kodar den",
+        correct: true,
+      },
+      {
+        text: "Ett program där du skriver HTML och CSS",
+        correct: false,
+      },
+      { text: "En valideringstjänst", correct: false },
+    ],
+  },
   {
     question: "Vad är Lighthouse?",
     answers: [
@@ -571,7 +584,7 @@ const questions = [
         text: " Använd ord som är kopplade till dig",
         correct: true,
       },
-      { text: " Hellre långa än korta strängar (ord)", correct: true },
+      { text: " Hellre långa än korta strängar (ord)", correct: false },
     ],
   },
   {
@@ -589,7 +602,7 @@ const questions = [
         text: "Att validera en webbsida",
         correct: true,
       },
-      { text: "Att ändra webbsidans innehåll ", correct: true },
+      { text: "Att ändra webbsidans innehåll ", correct: false },
     ],
   },
 ];
