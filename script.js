@@ -232,4 +232,364 @@ const questions = [
       { text: "Webbhotellssystem", correct: false },
     ],
   },
+
+  {
+    question: "Vad är Lighthouse?",
+    answers: [
+      {
+        text: "En tjänst där du gör layouten på en webbplats innan du kodar den",
+        correct: false,
+      },
+      {
+        text: "Ett program där du skriver HTML och CSS",
+        correct: false,
+      },
+      { text: "En valideringstjänst", correct: false },
+      {
+        text: "Automatiserat verktyg för att förbättra prestanda, kvalitet och korrekthet på webbplatser.",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: "Varför validerar man HTML och CSS?",
+    answers: [
+      {
+        text: " Sidorna blir snabbare",
+        correct: false,
+      },
+      {
+        text: " Sidorna blir framtidssäkrade",
+        correct: true,
+      },
+      { text: "Sidorna får snyggare layout", correct: false },
+    ],
+  },
+  {
+    question: "Vad behöver INTE en bra editor stöd för",
+    answers: [
+      {
+        text: "UTF-8 (inbyggt i ex: Atom, VS Code. i textformatet)",
+        correct: false,
+      },
+      {
+        text: " Syntax highlighting",
+        correct: false,
+      },
+      { text: "radnumrering", correct: false },
+      { text: "Stavningskontroll på texten", correct: true },
+    ],
+  },
+  {
+    question: "Vad är teckenkodning (charset)?",
+    answers: [
+      {
+        text: "Ett sätt att koda tecken",
+        correct: true,
+      },
+      {
+        text: "Ett sätt att koda HTML",
+        correct: false,
+      },
+      { text: "Ett sätt att koda bilder", correct: false },
+      { text: "Ett sätt att koda CSS", correct: false },
+    ],
+  },
+  {
+    question: "Var ska charset sättas i koden?",
+    answers: [
+      {
+        text: "direkt efter start-head-taggen",
+        correct: true,
+      },
+      {
+        text: "direkt efter start-body-taggen",
+        correct: false,
+      },
+      { text: "direkt efter slut-head-taggen", correct: false },
+      { text: "direkt före start-body-taggen", correct: false },
+    ],
+  },
+  {
+    question: "Hur ska charset utf-8 elementet se ut?",
+    answers: [
+      {
+        text: '<meta charset="utf-8">',
+        correct: true,
+      },
+      {
+        text: '<meta="utf-8">',
+        correct: false,
+      },
+      { text: '<charset meta="utf-8">', correct: false },
+      { text: '<charset="utf-8">', correct: false },
+    ],
+  },
+  {
+    question: "Vilket begrepp har med mobilanpassning att göra?",
+    answers: [
+      {
+        text: "port",
+        correct: false,
+      },
+      {
+        text: "media queries",
+        correct: true,
+      },
+      { text: "meta charset", correct: false },
+      { text: "style", correct: false },
+    ],
+  },
+  {
+    question: "Vilket bildformat stöds INTE av HTML5?",
+    answers: [
+      {
+        text: "gif",
+        correct: false,
+      },
+      {
+        text: "png",
+        correct: false,
+      },
+      { text: "jpg", correct: false },
+      { text: "psd", correct: true },
+      { text: "webp", correct: false },
+    ],
+  },
+  {
+    question: "Vilket element används för att bädda in Google Maps i HTML5?",
+    answers: [
+      {
+        text: "iframe",
+        correct: true,
+      },
+      {
+        text: "div",
+        correct: false,
+      },
+      { text: "span", correct: false },
+      { text: "section", correct: false },
+    ],
+  },
+  {
+    question: "Vad kallas färgsystemet som används på skärmar?",
+    answers: [
+      {
+        text: "RGB",
+        correct: true,
+      },
+      {
+        text: "CMYK",
+        correct: false,
+      },
+      { text: "Alpha", correct: false },
+      { text: "Gamma", correct: false },
+    ],
+  },
+  {
+    question: "Vad används alpha värdet till? Tex rgba(255, 255, 255, 0.5)?",
+    answers: [
+      {
+        text: "Ändra genomskinlighet",
+        correct: true,
+      },
+      {
+        text: "Ändra nyanser",
+        correct: false,
+      },
+      { text: "Ändra ljushet", correct: false },
+      { text: "Ändra mättnad", correct: false },
+    ],
+  },
+  {
+    question: "Vilket alternativ är det korrekta? De andra har något fel i sig",
+    answers: [
+      {
+        text: " #34G23BF",
+        correct: false,
+      },
+      {
+        text: " rgba(123, 20, 211, 0,4)",
+        correct: false,
+      },
+      { text: " rgb(123, 20, 211)", correct: true },
+      { text: "gul", correct: false },
+    ],
+  },
+  {
+    question: "Hur kommenterar man HTML kod?",
+    answers: [
+      {
+        text: "<!-- kommentar -->",
+        correct: true,
+      },
+      {
+        text: " # kommentar",
+        correct: false,
+      },
+      { text: " /* kommentar */", correct: false },
+      { text: " // kommentar ", correct: false },
+    ],
+  },
+  {
+    question: "Vilket bildformat är det som bara kan ha 256 färger?",
+    answers: [
+      {
+        text: "GIF",
+        correct: true,
+      },
+      {
+        text: "PNG",
+        correct: false,
+      },
+      { text: "JPG", correct: false },
+      { text: "PSD ", correct: false },
+    ],
+  },
+  {
+    question: "Varför ska man följa riktlinjer när man gör webbplatser?",
+    answers: [
+      {
+        text: "Så att alla användare kan använda webbplatsen på bästa sätt",
+        correct: true,
+      },
+      {
+        text: "Så att du som webbutvecklare får mindre att göra",
+        correct: false,
+      },
+      {
+        text: " Så att du som webbutvecklare får mer att göra",
+        correct: false,
+      },
+      { text: "Så att du tjänar mer pengar ", correct: false },
+    ],
+  },
+  {
+    question: "Vad används webbanvändaragenter INTE till?",
+    answers: [
+      {
+        text: "Ge olika användare olika webbsidor",
+        correct: false,
+      },
+      {
+        text: "Visa olika innehåll till olika användare",
+        correct: false,
+      },
+      {
+        text: "Samla statistik om användarens webbläsare",
+        correct: false,
+      },
+      { text: "Kan ge skadlig kod till webbläsaren ", correct: true },
+    ],
+  },
+  {
+    question:
+      "Vad beskrivs här: Skapa webbsidor som kan ses med olika OS, webbläsare, plattformar",
+    answers: [
+      {
+        text: "Webbinteroperabilitet",
+        correct: true,
+      },
+      {
+        text: "Användaragent",
+        correct: false,
+      },
+      {
+        text: "Växlartillägg",
+        correct: false,
+      },
+      { text: "Operativsystem", correct: false },
+    ],
+  },
+  {
+    question: "Samlingsnamn för program man kommer åt via webbläsare",
+    answers: [
+      {
+        text: "Webbapplikation",
+        correct: true,
+      },
+      {
+        text: "Användaragent",
+        correct: false,
+      },
+      {
+        text: "Hårdvaruplattform",
+        correct: false,
+      },
+      { text: "Operativsystem", correct: false },
+    ],
+  },
+  {
+    question: "PC, Mac, Android är exempel på en:",
+    answers: [
+      {
+        text: "Webbapplikation",
+        correct: false,
+      },
+      {
+        text: "Användaragent",
+        correct: false,
+      },
+      {
+        text: "Hårdvaruplattform",
+        correct: true,
+      },
+      { text: "Operativsystem", correct: false },
+    ],
+  },
+  {
+    question:
+      "Vilket verktyg är INTE en tjänst för att kvalitetssäkra webbplatsen?",
+    answers: [
+      {
+        text: "Google mobilvänlighetstest",
+        correct: false,
+      },
+      {
+        text: "W3C validatortjänst för HTML",
+        correct: false,
+      },
+      {
+        text: "W3C validatortjänst för CSS",
+        correct: false,
+      },
+      { text: "Google fonts", correct: true },
+    ],
+  },
+  {
+    question: "Vilket påstående om lösenord ger INTE högre säkerhet",
+    answers: [
+      {
+        text: " Ha olika lösenord på olika tjänster",
+        correct: false,
+      },
+      {
+        text: " Använd lösenordshanterare",
+        correct: false,
+      },
+      {
+        text: " Använd ord som är kopplade till dig",
+        correct: true,
+      },
+      { text: " Hellre långa än korta strängar (ord)", correct: true },
+    ],
+  },
+  {
+    question: "Vad används JavaScript INTE till?",
+    answers: [
+      {
+        text: "Att ändra webbsidans utseende",
+        correct: false,
+      },
+      {
+        text: "Att programmera en webbsida",
+        correct: false,
+      },
+      {
+        text: "Att validera en webbsida",
+        correct: true,
+      },
+      { text: "Att ändra webbsidans innehåll ", correct: true },
+    ],
+  },
 ];
