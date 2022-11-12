@@ -159,10 +159,10 @@ const questions = [
   {
     question: "Vad gör DNS?",
     answers: [
-      { text: "Översätter IP-adresser till dommännamn", correct: true },
+      { text: "Översätter IP-adresser till domännamn", correct: true },
       { text: "Översätter IP-adresser till HTML", correct: false },
       { text: "Översätter IP-adresser till CSS", correct: false },
-      { text: " Översätter IP-adresser till WWW", correct: false },
+      { text: " Översätter IP-adresser till JavaScript", correct: false },
     ],
   },
   {
