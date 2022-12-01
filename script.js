@@ -125,7 +125,7 @@ const questions = [
     ],
   },
   {
-    question: "Vad heter den första grafiska webbläsaren?",
+    question: "Vad heter den första populära grafiska webbläsaren?",
     answers: [
       { text: "Netscape", correct: false },
       { text: " Mosaic", correct: true },
